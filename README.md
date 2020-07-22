@@ -1,4 +1,4 @@
-# GuesstheRGB
+# [GuesstheRGB](https://kiranpanjam.github.io/GuesstheRGB/)
 A Simple game which involves guessing a color with RGB values.
 
 Game was created as a part of course "The Web Developer Bootcamp 2020" by Colt Steele.
