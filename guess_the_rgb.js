@@ -46,7 +46,7 @@ resetButton.addEventListener("click", function () {
   colors = generateRandomColors(numOfSquares);
   pickedColor = pickColor();
   colorDisplay.textContent = pickedColor;
-  resetButton.textContent = "New colors";
+  resetButton.textContent = "New colors.";
   for (var index = 0; index < squares.length; index++) {
     squares[index].style.background = colors[index];
   }
@@ -71,7 +71,7 @@ for (var index = 0; index < squares.length; index++) {
       colorDisplay.style.background = clickedColor;
     } else {
       this.style.background = "#232323";
-      messageDisplay.textContent = "TRY AGAIN!";
+      messageDisplay.textContent = "TRY AGAIN.";
       resetButton.textContent = "Play Again?";
     }
   });
